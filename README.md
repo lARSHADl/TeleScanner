@@ -32,7 +32,7 @@ TWILIO
 
 FREE 15 $ credit for new account
 
-https://www.twilio.com/try-twilio
+https://www.twilio.com/referral/L3jnsB
 
 Please dont lift the call , we just use calling as an option to notify the user
 
@@ -44,15 +44,19 @@ Please dont lift the call , we just use calling as an option to notify the user
 
 TO-DO:
 
-mutithreading/mutliple channels support
-secure credintials
+Muwtithreading/mutliple-channels-support
+
+Secure credintials
 
 
 
-Usefull links:
+Useful links:
 
 https://docs.telethon.dev/en/stable/basic/quick-start.html
 
 https://www.twilio.com/docs/voice/quickstart/python
 
 https://www.twilio.com/blog/make-phone-call-python-twilio-programmable-voice
+
+contributors:
+ Ajaz
