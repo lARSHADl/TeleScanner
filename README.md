@@ -1,7 +1,7 @@
 # TeleScanner
 
 
-Scan deals group and notify user using Normal call 
+Scan for a specific message in the Group/ Chat 24 x 7and notify user using a Normal call as the network maybe down on the usere End  
 
 
 Signup:
@@ -34,7 +34,7 @@ FREE 15 $ credit for new account
 
 https://www.twilio.com/referral/L3jnsB
 
-Please dont lift the call , we just use calling as an option to notify the user
+lifting the call may deduct the credit balance , we just use calling as an way to notify the user
 
 1. Get a US number
 2. add your numer in  verified list as limited by trial account
@@ -44,7 +44,7 @@ Please dont lift the call , we just use calling as an option to notify the user
 
 TO-DO:
 
-Muwtithreading/mutliple-channels-support
+Multithreading/mutliple-channels-support
 
 Secure credintials
 
