@@ -3,6 +3,7 @@
 
 Scan for a specific message in the Group/ Chat 24 x 7and notify user using a Normal call as the network maybe down on the usere End  
 
+Notify under 6 seconds including Call Time
 
 Signup:
 
