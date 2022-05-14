@@ -49,14 +49,6 @@ Multithreading/mutliple-channels-support
 Secure credintials
 
 
+Contributors:
 
-Useful links:
-
-https://docs.telethon.dev/en/stable/basic/quick-start.html
-
-https://www.twilio.com/docs/voice/quickstart/python
-
-https://www.twilio.com/blog/make-phone-call-python-twilio-programmable-voice
-
-contributors:
- Ajaz
+Ajaz
