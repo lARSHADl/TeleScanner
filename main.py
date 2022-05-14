@@ -2,9 +2,10 @@ import configparser
 import re
 from telethon import TelegramClient, events
 from call import notify
+import datetime
 
 dealsFilter = ['grab', 'loot', 'looot', 'mrp Error', 'mrp error', 'MRP Error', 'Loot', 'big loot', 'fast', 'grab fast',
-               'looot', 'grab']
+               'looot', 'Grab']
 channel = 'target-chanel-link'
 
 config = configparser.ConfigParser()
@@ -18,6 +19,8 @@ username = config['Telegram']['username']
 
 client = TelegramClient(phone, api_id, api_hash)
 
+tim = datetime.datetime.now()
+
 
 @client.on(events.NewMessage(chats=channel))
 async def newMessageListen(event):
@@ -28,6 +31,7 @@ async def newMessageListen(event):
             if re.search(x, newMessage):
                 await client.forward_messages(entity='me', messages=event.message)
                 notify()
+                print("The user is notified at : , tim)
                 break
 
 
