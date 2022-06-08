@@ -50,6 +50,12 @@ Multithreading/mutliple-channels-support
 Secure credintials
 
 
-Contributors:
+Note:
+when it is accessec by ssh connection it only runs till the ssh session is active to avoid this, use :
 
-Ajaz
+
+    ssh into the remote machine
+    start tmux by typing tmux into the shell
+    start the process you want inside the started tmux session
+    leave/detach the tmux session by typing Ctrl+b and then d
+
