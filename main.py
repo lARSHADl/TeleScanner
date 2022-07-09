@@ -1,8 +1,7 @@
 import configparser
-import re
 from telethon import TelegramClient, events
 from call import notify
-import datetime
+
 
 dealsFilter = ['grab', 'loot', 'looot', 'mrp Error', 'mrp error', 'MRP Error', 'Loot', 'big loot', 'fast', 'grab fast',
                'looot', 'Grab']
